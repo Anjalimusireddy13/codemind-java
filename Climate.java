@@ -1,18 +1,17 @@
 import java.util.Scanner;
-public class number
+public class climate
 {
-  public static void main(String args[])
-  {
-      int n;
-      Scanner sc=new Scanner(System.in);
-      n=sc.nextInt();
-      if(n>20)
-      {
-         System.out.println("HOT");
-      }
-      else
-      {
-          System.out.println("COLD");
-      }
-  }
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int c=sc.nextInt();
+        if(c>20)
+        {
+            System.out.println("HOT");
+        }
+        else
+        {
+            System.out.println("COLD");
+        }
+    }
 }

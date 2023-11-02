@@ -17,7 +17,7 @@ System.out.println(num2);
 }
 else  
 {
-System.out.println(num3); 
+System.out.println(num3);
 }
-}  
-}  
+}
+}
